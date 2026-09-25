@@ -21,3 +21,10 @@ Ce que j'ai fait dans le notebook :
 - Et enfin, j'ai sauvegardé tout ça dans un nouveau fichier `courses_propres.csv` du côté du dossier Java. 
 
 Les tests passent tous sans problème, donc c'est validé pour le Python !
+
+## Etape 2 : Le moteur de calcul en Java
+
+Une fois les données propres, je suis passé au maillon Java. C'est ici que j'ai fait tous les calculs de la saison.
+Dans le fichier `Classement.java` :
+- J'ai fait une méthode pour attribuer les points selon la position. Si le pilote est hors du top 10 ou s'il a abandonné (position 0), je lui mets directement 0 point.
+- Pour faire le classement des pilotes, j'ai utilisé une `Map` pour regrouper les scores de chacun. J'additionne leurs points, je compte les victoires et les deuxièmes places.
