@@ -5,7 +5,7 @@ Voici les explications sur mon projet F1.
 ## Démarrage
 
 Pour commencer, j'ai fait un peu de configuration pour travailler proprement :
-- J'ai créé mon propre repo GitHub (`Projet-F1-bootcamp_clyfton`).
+- J'ai créé mon propre repo GitHub (`projet-F1_Clyfton`).
 - J'ai enlevé le lien vers votre dépôt pour ne pas faire de bêtises.
 - J'ai tout pushé sur mon nouveau repo en me connectant avec le CLI GitHub.
 
