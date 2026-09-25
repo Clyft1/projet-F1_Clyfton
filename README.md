@@ -34,3 +34,12 @@ Dans le fichier `Classement.java` :
 
 J'ai lancé les tests avec `javac` et `java`, et j'ai eu 5/5.
 
+## Etape 3 : L'affichage avec JavaScript
+
+Enfin, la partie visible ! J'ai récupéré le fichier généré par le Java pour faire l'affichage web.
+Dans `app.js` :
+- J'ai écrit une fonction pour trier le tableau qu'on m'envoie. J'ai bien fait attention de créer une copie de la liste (`[...liste]`) pour ne pas modifier les données d'origine.
+- J'ai fait une fonction `remplirTableau` qui parcourt les données et génère du HTML pour afficher les lignes. Je vide d'abord le tableau pour ne pas empiler les données si on l'appelle plusieurs fois.
+- Pour finir, ma fonction `marquerPodium` ajoute la classe CSS "podium" uniquement aux trois premiers de la liste.
+ 
+
