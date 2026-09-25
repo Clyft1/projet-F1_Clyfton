@@ -28,3 +28,8 @@ Une fois les données propres, je suis passé au maillon Java. C'est ici que j'a
 Dans le fichier `Classement.java` :
 - J'ai fait une méthode pour attribuer les points selon la position. Si le pilote est hors du top 10 ou s'il a abandonné (position 0), je lui mets directement 0 point.
 - Pour faire le classement des pilotes, j'ai utilisé une `Map` pour regrouper les scores de chacun. J'additionne leurs points, je compte les victoires et les deuxièmes places.
+ Ensuite, je trie la liste avec une fonction qui vérifie les points, puis les victoires, puis les 2e places, etc.
+- J'ai fait presque pareil pour classer les écuries.
+- Pour la position moyenne, j'ai fait attention à bien exclure les abandons pour que la moyenne soit juste !
+
+J'ai lancé les tests avec `javac` et `java`, et j'ai eu 5/5.
