@@ -47,7 +47,7 @@ function remplirTableau(idCorps, liste) {
     
     // je construis la ligne HTML en injectant les données proprement. L'index + 1 donne le rang.
     tr.innerHTML = `
-      <td>${index + 1}</t>
+      <td>${index + 1}</td>
       <td>${item.nom}</td>
       <td>${ecurie}</td>
       <td>${item.points}</td>
