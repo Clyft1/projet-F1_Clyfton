@@ -33,3 +33,4 @@ Dans le fichier `Classement.java` :
 - Pour la position moyenne, j'ai fait attention à bien exclure les abandons pour que la moyenne soit juste !
 
 J'ai lancé les tests avec `javac` et `java`, et j'ai eu 5/5.
+
